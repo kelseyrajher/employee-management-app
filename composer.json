@@ -1,0 +1,24 @@
+{
+    "name": "kelseyrajher/recruitment_app",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kelseyrajher\\RecruitmentApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kelsey Rajher"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "platform": {
+            "php": "8.2.4"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f1f1f1;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+}
+.grid-container> :nth-child(1){
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 16px;
+    background-color: #024c90;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    white-space: nowrap;
+}
+
+button:hover {
+    background-color: rgba(2, 76, 144, 0.8);
+}
+
+button:active {
+    background-color: rgba(2, 76, 144, 0.8);
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+}
