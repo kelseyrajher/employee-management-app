@@ -1,4 +1,4 @@
-<h1>Employee Management Web Application</h1>
+<h1>Workforce Management Web Application</h1>
 
 <h2>Project Overview:</h2>
 <p>This web application was developed as part of a college project in collaboration with a real-world client, emulating a scenario similar to industry practice. The project aimed to streamline HR processes, track employee headcount, manage cost centers, and facilitate internal position vacancy management. It focuses on providing a functional and practical solution tailored to the needs of HR professionals and managers.</p>
